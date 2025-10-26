@@ -1,39 +1,38 @@
-## 🎉 Birthday Greeting Webpage 
+## 🎉 Página de Cumprimentos de Aniversário
 
-[Demo](https://fajarghifar.github.io/happybirthday/)
+[Demo](https://felipevalentim.github.io/happybirthday/)
 
-## 🚀 How to Use
+## 🚀 Como Usar
 
-1.  **Clone Repository**
+1. **Clonar o Repositório**
 
-    ```bash
-    # Clone this repository or download it
-    $ git clone https://github.com/fajarghifar/happybirthday
+   ```bash
+   # Clone este repositório ou faça o download
+   $ git clone https://github.com/felipevalentim/happybirthday
 
-    # Go into the repository
-    $ cd happybirthday
+   # Entre na pasta do repositório
+   $ cd happybirthday
 
-    # Open it with your text editor
-    $ code .
-    ```
+   # Abra com seu editor de texto
+   $ code .
+   ```
 
-2. **Open with Live Server**
+2. **Abrir com Live Server**
 
-    Your site is now running!
+   Seu site já estará rodando!
 
-3. **Deployment**
+3. **Publicação**
 
-    To make your site online, you can enable GitHub Pages for the repository (Settings -> Pages). Alternatively, you can use [Netlify](https://www.netlify.com/).
+   Para colocar seu site online, você pode habilitar o GitHub Pages no repositório (Configurações -> Pages).  
+   Como alternativa, você pode usar [Netlify](https://www.netlify.com/).
 
-## 📝 Contributing
+## 📝 Contribuindo
 
-If you have any ideas to make it more interesting, please submit a pull request or create an issue for a feature request.
+Se você tiver ideias para deixar o site mais interessante, envie um pull request ou crie uma issue para sugerir uma nova funcionalidade.
 
-## 🤝 License
+## 🤝 Licença
 
 ### [MIT](LICENSE)
 
-> Github [@fajarghifar](https://github.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Youtube [@fajarghifar](https://www.youtube.com/@fajarghifar/) &nbsp;&middot;&nbsp;
-> Instagram [@fajarghifar](https://instagram.com/fajarghifar) &nbsp;&middot;&nbsp;
-> Linkedin [@fajarghifar](https://www.linkedin.com/in/fajarghifar/)
+> Github [@fajarghifar](https://github.com/FelipeValentim) &nbsp;&middot;&nbsp;  
+> Linkedin [@felipe-valentim](https://www.linkedin.com/in/felipe-valentim/)
