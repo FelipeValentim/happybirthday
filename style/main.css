@@ -46,12 +46,30 @@ body {
 }
 
 .four .text-box {
-  border: 3px solid #aaa;
-  border-radius: 5px;
+  background-color: #144d37;
+  color: #fafafa;
+  border-radius: 7.5px;
   margin: 0 auto;
   padding: 10px;
   position: relative;
-  width: 600px;
+  max-width: 600px;
+}
+
+.msg-status {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.msg-status svg {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.msg-status .dblcheck {
+  color: #53bdeb; /* azul WhatsApp para 'lido' */
 }
 
 .text-box p {
@@ -63,15 +81,26 @@ body {
   visibility: hidden;
 }
 
-.text-box .fake-btn {
-  background-color: #5c3e94;
-  border-radius: 3px;
-  bottom: -50px;
+.text-box span#msg-time {
+  visibility: visible;
+}
+
+.fake-btn svg {
   color: #fff;
-  padding: 0.5rem 1rem;
+}
+
+.text-box .fake-btn {
+  bottom: -50px;
   position: absolute;
-  right: 5px;
+  right: 0;
   cursor: pointer;
+  background: #37c572;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .five p {
@@ -253,7 +282,7 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 630px) {
   .four .text-box {
     width: 90%;
   }
@@ -294,7 +323,6 @@ body {
 .birthday-popup {
   border-radius: 20px;
   padding: 2rem;
-  border: 5px dashed #5c3e94; /* borda com a cor principal */
 }
 
 .birthday-title {

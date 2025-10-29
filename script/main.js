@@ -1,12 +1,11 @@
 // trigger to play music in the background with sweetalert
 window.addEventListener("load", () => {
   Swal.fire({
-    title: "🎉 Olá meu amor! 🎂",
+    title: "Olá lindona!",
     html: "Quer ouvir uma musiquinha de fundo enquanto a surpresa acontece?",
     showCancelButton: true,
     confirmButtonText: "Sim 💜",
     cancelButtonText: "Não 😢",
-    background: "#fff0f8", // fundo suave e festivo
     color: "#5C3E94", // texto com a cor principal do site
     iconHtml: "🎈", // ícone de balão
     customClass: {
@@ -114,6 +113,14 @@ const animationTimeline = () => {
       },
       "+=3"
     )
+    .call(() => {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, "0");
+      const minutes = now.getMinutes().toString().padStart(2, "0");
+
+      const time = document.getElementById("msg-time");
+      time.textContent = `${hours}:${minutes}`;
+    })
     .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0,
@@ -134,6 +141,10 @@ const animationTimeline = () => {
       fakeBtn.disabled = false;
       fakeBtn.style.pointerEvents = "auto";
       fakeBtn.style.opacity = "1";
+
+      // cria a div com hora e check
+      const check = document.querySelector(".msg-status svg");
+      check.classList.add("dblcheck");
     })
     .addPause("waitForClick")
     .to(
@@ -317,7 +328,6 @@ const animationTimeline = () => {
   });
 
   fakeBtn.addEventListener("click", () => {
-    console.log("click");
     tl.resume(); // agora o tl existe nesse escopo
   });
 };
